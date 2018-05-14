@@ -1,0 +1,17 @@
+4/27/18
+Current Problems
+    platforms squeazing on the left side
+        must be due to the scroll - FIXED
+    odd barrier detection especially with stairs FIXED rect.width when not all tiles are same size
+
+
+4/28/18
+    jumping gets shot up
+        use the value isjumping to prevent unintentional jump FIXED
+            CAUSED PROBLEM WITH FALLING THROUGH FLOORS
+                maybe increase tile hitbox
+    fix the feel of the game
+
+4/30/18
+    jumping locks in vel.x
+        made change too take away a good amount of air control to match orginal game
